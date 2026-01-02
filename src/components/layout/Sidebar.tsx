@@ -15,9 +15,22 @@ import {
     Menu,
     X,
     Sparkles,
+    LogOut,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useState } from "react";
+import { logout } from "@/lib/actions/auth";
+
+interface User {
+    id?: string;
+    name?: string | null;
+    email?: string | null;
+    image?: string | null;
+}
+
+interface SidebarProps {
+    user?: User;
+}
 
 const navigation = [
     { name: "Dashboard", href: "/dashboard", icon: LayoutDashboard },
@@ -34,9 +47,13 @@ const bottomNavigation = [
     { name: "Einstellungen", href: "/settings", icon: Settings },
 ];
 
-export function Sidebar() {
+export function Sidebar({ user }: SidebarProps) {
     const pathname = usePathname();
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+    const handleLogout = async () => {
+        await logout();
+    };
 
     return (
         <>
@@ -132,12 +149,23 @@ export function Sidebar() {
                 <div className="px-3 py-4 border-t border-white/10">
                     <div className="flex items-center gap-3 px-3 py-2">
                         <div className="w-9 h-9 rounded-full bg-gradient-to-br from-primary-400 to-accent-400 flex items-center justify-center text-white font-medium text-sm">
-                            U
+                            {user?.name?.charAt(0)?.toUpperCase() || user?.email?.charAt(0)?.toUpperCase() || "U"}
                         </div>
                         <div className="flex-1 min-w-0">
-                            <p className="text-sm font-medium text-white truncate">User</p>
-                            <p className="text-xs text-sidebar-text-muted truncate">Freier Plan</p>
+                            <p className="text-sm font-medium text-white truncate">
+                                {user?.name || "User"}
+                            </p>
+                            <p className="text-xs text-sidebar-text-muted truncate">
+                                {user?.email || "Freier Plan"}
+                            </p>
                         </div>
+                        <button
+                            onClick={handleLogout}
+                            className="p-1.5 rounded-lg hover:bg-sidebar-hover text-sidebar-text-muted hover:text-white transition-colors"
+                            title="Abmelden"
+                        >
+                            <LogOut className="w-4 h-4" />
+                        </button>
                     </div>
                 </div>
             </aside>

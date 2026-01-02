@@ -5,7 +5,18 @@ import { cn, getGreeting } from "@/lib/utils";
 import { useTheme } from "@/components/providers";
 import { useEffect, useState } from "react";
 
-export function Header() {
+interface User {
+    id?: string;
+    name?: string | null;
+    email?: string | null;
+    image?: string | null;
+}
+
+interface HeaderProps {
+    user?: User;
+}
+
+export function Header({ user }: HeaderProps) {
     const { theme, setTheme, resolvedTheme } = useTheme();
     const [greeting, setGreeting] = useState("");
     const [mounted, setMounted] = useState(false);
@@ -19,6 +30,8 @@ export function Header() {
         setTheme(resolvedTheme === "dark" ? "light" : "dark");
     };
 
+    const firstName = user?.name?.split(" ")[0] || "User";
+
     return (
         <header className="sticky top-0 z-30 bg-background/80 backdrop-blur-lg border-b border-border">
             <div className="flex items-center justify-between h-16 px-4 lg:px-6">
@@ -26,7 +39,7 @@ export function Header() {
                 <div className="hidden lg:block">
                     <p className="text-sm text-foreground-secondary">{greeting}</p>
                     <h2 className="text-lg font-semibold text-foreground">
-                        Willkommen zurück! 👋
+                        Willkommen zurück, {firstName}! 👋
                     </h2>
                 </div>
 
