@@ -1,0 +1,205 @@
+
+
+## **LifeOS – Deine verfeinerte Vision**
+
+### **Kernphilosophie**
+LifeOS ist nicht nur ein Tracker, sondern dein **intelligenter Lebenspartner**. Die AI analysiert die Zusammenhänge zwischen deinen Gewohnheiten, deiner Gesundheit, deinen Terminen und deiner Stimmung und gibt dir personalisierte Insights, die du nirgendwo sonst bekommst.
+
+---
+
+## **Vollständiger Feature-Umfang**
+
+### **1. Dashboard/Home – Das Kommandozentrum**
+
+**Dynamische Widgets (Nutzer konfigurierbar):**
+- **Heute-Übersicht**: Termine, offene Tasks, Habit-Streak, Medikamente
+- **Energie-Score**: AI-basierter Tagesform-Indikator (basiert auf Schlaf, Habits, Medikamenten-Compliance)
+- **Wetter & Kontext-Widget**: Berücksichtigt Wetter für Aktivitätsvorschläge
+- **Streak-Highlights**: Visuell hervorgehobene Habit-Erfolge
+- **Quick Actions**: Schnellerfassung (neuer Termin, Habit checken, Symptom loggen)
+- **AI-Insight of the Day**: "Du schläfst immer schlechter nach späten Workouts – versuch's vor 18 Uhr"
+- **Life Balance Radar**: Interaktive Visualisierung (Gesundheit, Soziales, Karriere, Finanzen, etc.)
+- **Upcoming Risks**: "Morgen 3 Meetings + Training geplant, aber Schlafdefizit – AI empfiehlt Anpassung"
+
+---
+
+### **2. Kalender & Terminplanung**
+
+**Features:**
+- **Smart Calendar**: Google/Outlook Integration
+- **AI-Terminoptimierung**:
+  - Schlägt beste Zeiten für Tasks vor (basierend auf Energie-Patterns)
+  - Erkennt Überlastung und warnt ("Zu viele Meetings, blockiere dir Pausen")
+- **Kontext-Tags**: Ort, Energielevel benötigt, Teilnehmer
+- **Time-Blocking Assistant**: AI schlägt optimale Time-Blocks vor
+- **Travel-Time Calculator**: Automatisch Pufferzeiten einberechnen
+- **Meeting-Vorbereitung**: AI erstellt Checkliste basierend auf Kalendereinträgen
+
+---
+
+### **3. Habit Tracking – Das Herzstück**
+
+**Features:**
+- **Flexible Habit-Definitionen**: Täglich/wöchentlich/monatlich, mit Zielmenge (z.B. 8 Gläser Wasser)
+- **Visual Streak-Tracking**: Heatmap-Kalender (GitHub-Style)
+- **AI-Coaching-Persönlichkeiten**:
+  - Motivierend, streng, humorvoll, wissenschaftlich – User wählt
+  - Proaktive Push-Benachrichtigungen mit personalisierten Sprüchen
+- **Habit-Stacking-Suggestions**: "Du gehst immer nach dem Kaffee spazieren – mach danach auch 5 Min. Dehnen?"
+- **Korrelationsanalyse**: "Dein Workout-Habit korreliert mit +30% besserer Stimmung"
+- **Adaptive Goals**: AI passt Ziele an, wenn zu leicht/schwer
+- **Social Accountability** (optional): Teile Streaks mit Freunden
+
+---
+
+### **4. Health & Medication Tracking**
+
+**Features:**
+- **Medikamenten-Manager**:
+  - Erinnerungen mit intelligenter Snooze-Funktion
+  - Vorrats-Tracking (wann nachbestellen?)
+  - Nebenwirkungen-Log
+  - Compliance-Score
+- **Symptom-Tracker**:
+  - Schnelleingabe (Kopfschmerzen, Müdigkeit, etc.)
+  - Schwere-Skala
+  - Freie Notizen
+- **Vital-Daten**:
+  - Gewicht, Blutdruck, Puls, Schlaf (Integration mit Wearables oder manuell)
+  - Trend-Visualisierung
+- **Ernährungs-Log** (optional): Mahlzeiten, Kalorien, Makros
+- **Zyklustracking** (für Nutzerinnen): Mit Stimmungs-Korrelation
+- **AI Health Insights**:
+  - "Deine Kopfschmerzen treten oft nach <5h Schlaf auf"
+  - "Medikament X könnte deine Müdigkeit beeinflussen – sprich mit deinem Arzt"
+
+---
+
+### **5. AI-Analyse & Insights-Hub**
+
+**Das Killer-Feature – hier wird die AI zum Game-Changer:**
+
+**A) Dashboard-Übersicht:**
+- **Wöchentliche/Monatliche Reports**: Automatisch generiert
+- **Trend-Graphen**: Interaktiv, mit Drill-Down
+- **Korrelations-Matrix**: Zeigt Zusammenhänge zwischen allen Datenpunkten
+  - Beispiel: "Schlechter Schlaf → weniger Workout → schlechtere Stimmung"
+
+**B) Intelligente Analysen:**
+- **Pattern Recognition**: "Du brichst Habits immer freitags – plane leichtere Ziele am Wochenende"
+- **Predictive Warnings**: "Basierend auf deinen Daten: hohes Burnout-Risiko in 2 Wochen"
+- **Optimization Suggestions**: "Verschiebe dein Workout von abends auf morgens für +20% Compliance"
+- **Life Balance Score**: Ganzheitliche Bewertung aller Bereiche (0-100)
+
+**C) Visualisierungen:**
+- **Interactive Charts**: Line, Bar, Radar, Heatmaps
+- **Vergleichsansichten**: Woche vs. Woche, Monat vs. Monat
+- **Habit-Impact-Analyse**: Welches Habit hat den größten Einfluss auf deine Gesundheit?
+- **Correlation Heatmap**: Zeigt alle signifikanten Zusammenhänge
+
+**D) AI-Chat-Interface:**
+- Frage die AI alles: "Warum war ich letzte Woche so müde?"
+- AI durchsucht alle Daten und gibt fundierte Antworten mit Quellen
+- Kann Grafiken on-demand erstellen
+
+---
+
+### **6. Goals & Projects** (Erweiterung)
+
+**Features:**
+- **SMART-Goals-Framework**: AI hilft bei Formulierung
+- **Projekt-Management**: Tasks, Subtasks, Deadlines
+- **Progress-Tracking**: Visuelle Fortschrittsbalken
+- **Milestone-Celebrations**: Gamification-Elemente
+- **Goal-to-Habit-Mapping**: "Um dein Ziel zu erreichen, tracke diese Habits"
+
+---
+
+### **7. Journal & Reflection**
+
+**Features:**
+- **Daily Journal**: Freie Eingabe mit Prompts
+- **Gratitude Log**: Was war heute gut?
+- **Mood Tracker**: Emoji-basiert oder Skala
+- **Voice Journaling**: Speech-to-Text
+- **AI-Prompt-Generator**: "Reflektiere über deine größte Herausforderung diese Woche"
+- **Sentiment Analysis**: AI erkennt Muster in deinen Einträgen
+
+---
+
+### **8. Integrations & Sync**
+
+- **Wearables**: Fitbit, Apple Health, Google Fit
+- **Kalender**: Google, Outlook, iCal
+- **Export-Funktionen**: CSV, PDF-Reports
+- **API für Power-User**: Eigene Automationen
+
+---
+
+## **Technologie-Stack-Empfehlung**
+
+**Frontend:**
+- React (Next.js) oder SvelteKit
+- Tailwind CSS für modernes Design
+- Recharts/D3.js für Visualisierungen
+- React Query für State Management
+
+**Backend:**
+- Netlify Functions (Serverless)
+- Neon DB (PostgreSQL) via Netlify
+- Anthropic Claude API für AI-Features
+
+**Optional:**
+- Cloudinary für Profilbilder/Dokumente
+- Vercel Cron Jobs für automatische Reports
+
+---
+
+## **User Journey Beispiel**
+
+**Morgen, 7:00 Uhr:**
+1. User öffnet App → Dashboard zeigt Energie-Score: 75% (gut geschlafen)
+2. AI-Insight: "Perfekter Tag für dein Krafttraining – dein Energie-Peak ist um 10 Uhr"
+3. Medikamenten-Reminder: "Vergiss nicht dein Vitamin D"
+4. Quick-Check Habits: Wasser, Meditation → abgehakt
+
+**Abends, 21:00 Uhr:**
+1. Habit-Check: Training gemacht ✓, aber nur 6 Gläser Wasser
+2. Stimmung loggen: 8/10
+3. Journal-Prompt: "Was hat heute am meisten Energie gekostet?"
+4. AI-Notification: "5-Tages-Streak bei Meditation! 🔥"
+
+**Sonntag, Weekly Review:**
+1. AI generiert Report: "Diese Woche 6/7 Workouts, Schlaf-Durchschnitt 7.2h"
+2. Korrelation gefunden: "Workout-Tage → +15% bessere Stimmung"
+3. Warnung: "Nur 2x meditiert diese Woche – das ist untypisch"
+4. Empfehlung: "Nächste Woche: Fokus auf Hydration (nur 60% erreicht)"
+
+---
+
+## **Unique Selling Points (USP)**
+
+1. **Ganzheitliche Korrelationsanalyse**: Nicht nur Tracking, sondern echte Insights
+2. **Prädiktive AI**: Warnt BEVOR Probleme entstehen
+3. **Personalisiertes Coaching**: AI passt sich deinem Stil an
+4. **Health + Life in einem**: Keine separaten Apps mehr
+5. **Datenschutz**: Self-hosted mit Netlify/Neon – User behält Kontrolle
+
+---
+
+## **Monetarisierung (optional für später)**
+
+- **Free Tier**: Basis-Features (3 Habits, 30 Tage History)
+- **Pro Tier** ($9/Monat): Unlimited Habits, AI-Insights, Korrelationen, Export
+- **Family Plan** ($15/Monat): Bis zu 5 User, Shared Goals
+- **Lifetime Deal**: $199 (für Early Adopters)
+
+---
+
+## **Next Steps**
+
+1. **Wireframes/Mockups**: Visualisiere das Dashboard
+2. **MVP-Scope definieren**: Was muss Version 1.0 können?
+3. **Datenmodell**: PostgreSQL-Schema für Users, Habits, Events, Health-Data
+4. **AI-Prompts**: Crafting der Claude-Prompts für Insights
+5. **Prototype**: Interaktives Demo-Dashboard
