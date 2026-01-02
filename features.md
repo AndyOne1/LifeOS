@@ -145,8 +145,8 @@
 
 | Status | Feature | Beschreibung |
 |--------|---------|--------------|
-| ⬜ | User Authentication | Login/Register |
-| ⬜ | User Settings | Präferenzen speichern |
+| ✅ | User Authentication | Login/Register |
+| ✅ | User Settings | Präferenzen speichern |
 | ✅ | Dark Mode | Theme-Umschaltung |
 | ✅ | Responsive Design | Mobile-optimiert |
 | ⬜ | Push-Notifications | Browser-Benachrichtigungen |
